@@ -28,7 +28,8 @@ def minimumCost(price, n):
 
 T=int(input("Number Of Test Cases"))
 
-if 1<=T<=10:
+
+while 1<=T<=10:
     price = []
     n = int(input("Enter number of Persons : "))
     if 1<=n<=100000:
@@ -49,9 +50,6 @@ if 1<=T<=10:
 
     else:
         print("Enter the valid number of Persons as 1 ≤ N ≤ 100000")
-        
-else:
-    print("Invalid Range of Test cases, it should be1<=T<=100")
-    
+
     
 
